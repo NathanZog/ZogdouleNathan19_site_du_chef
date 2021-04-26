@@ -16089,23 +16089,23 @@ h3 {
 }
 .carousel .title {
   position: absolute;
-  width: 35%;
+  width: 45%;
   top: 35%;
-  left: 35%;
+  left: 27.5%;
 }
 .carousel .title h1 {
   font-family: "Courgette", cursive;
   color: white;
+  width: 100%;
+  text-align: center;
 }
 .carousel .title button {
   padding: 5px;
   border-style: none;
   border-radius: 10em/10em;
-  margin-right: 20px;
-  margin-left: 15px;
-  margin-top: 20px;
 }
 
+/*partie media query*/
 @media (min-width: 320px) and (max-width: 640px) {
   li {
     font-size: 4px;
