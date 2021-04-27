@@ -1,0 +1,23 @@
+.bgtestimonials{
+    background-image: url("../images/testimonials_background.jpg");
+    .titresect4{
+        font-family: $courgette;
+        align-items: center;
+        span{
+            color: red;
+        }
+    }
+    .imgsect4{
+        justify-content: space-evenly;
+        .txtsect4{
+            border-radius: 25px;
+            justify-content: center;
+        }
+        .borderimg{
+            border-radius: 50%;
+            img{
+                border-radius: 50%;
+            }
+        }
+    }
+}

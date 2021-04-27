@@ -38,8 +38,49 @@
     }
     .reservation{
         justify-content: center;
-        border-radius: 2%;
+        border-radius: 25px;
         width: 70%;
         background-image: url("../images/book_table_bg.jpg");
+        div{
+            button{
+                border-radius: 10em/10em;
+                border: none;
+            }
+        }
+    }
+    .ourblog{
+        justify-content: space-evenly;
+        position: relative;
+        .divimg{
+            width: 40%;
+            padding: 1%;
+            background-color: lightgray;
+            border-radius: 25px;
+            .imgdivimg{
+                border-radius: 25px;
+                width: 100%;
+            }
+            .txtimg{
+                position: absolute;
+                width: 30%;
+                border-radius: 15px;
+                margin-left: 3%;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .txtbasimg{
+        .txtbas{
+            width: 40%;
+            justify-content: center;
+        }
+    }
+    .buttonblog{
+        button{
+            border-radius: 10em/10em;
+            border: none;
+        }
     }
 }

@@ -16540,9 +16540,68 @@ h3 {
 }
 .section3 .reservation {
   justify-content: center;
-  border-radius: 2%;
+  border-radius: 25px;
   width: 70%;
   background-image: url("../images/book_table_bg.jpg");
+}
+.section3 .reservation div button {
+  border-radius: 10em/10em;
+  border: none;
+}
+.section3 .ourblog {
+  justify-content: space-evenly;
+  position: relative;
+}
+.section3 .ourblog .divimg {
+  width: 40%;
+  padding: 1%;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+.section3 .ourblog .divimg .imgdivimg {
+  border-radius: 25px;
+  width: 100%;
+}
+.section3 .ourblog .divimg .txtimg {
+  position: absolute;
+  width: 30%;
+  border-radius: 15px;
+  margin-left: 3%;
+}
+.section3 .ourblog .divimg .txtimg span {
+  font-weight: bold;
+}
+.section3 .txtbasimg .txtbas {
+  width: 40%;
+  justify-content: center;
+}
+.section3 .buttonblog button {
+  border-radius: 10em/10em;
+  border: none;
+}
+
+.bgtestimonials {
+  background-image: url("../images/testimonials_background.jpg");
+}
+.bgtestimonials .titresect4 {
+  font-family: "Courgette", cursive;
+  align-items: center;
+}
+.bgtestimonials .titresect4 span {
+  color: red;
+}
+.bgtestimonials .imgsect4 {
+  justify-content: space-evenly;
+}
+.bgtestimonials .imgsect4 .txtsect4 {
+  border-radius: 25px;
+  justify-content: center;
+}
+.bgtestimonials .imgsect4 .borderimg {
+  border-radius: 50%;
+}
+.bgtestimonials .imgsect4 .borderimg img {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */
