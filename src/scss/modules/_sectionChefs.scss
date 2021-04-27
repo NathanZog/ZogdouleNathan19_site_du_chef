@@ -1,0 +1,42 @@
+.section2{
+    background-color: black;
+    div{
+        justify-content: center;
+        align-items:center;
+        h1{
+            font-family: $courgette;
+            color: white;
+            span{
+                color: red;
+            }
+        }
+    }
+    div{
+        justify-content: space-evenly;
+        .chef{
+            border-bottom: solid gray 1px;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width:640px){
+    .div2{
+        width: 20%;
+        .chef{
+            width: 75%; 
+        }
+        p{
+        font-size: 7px;
+        }
+    }
+}
+@media (min-width: 641px) and (max-width:1007px){
+    .div2{
+        width: 40%;
+        .chef{
+            width: 85%; 
+        }
+        p{
+        font-size: 10px;
+        }
+    }
+}

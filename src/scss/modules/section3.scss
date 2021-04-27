@@ -1,0 +1,45 @@
+.section3{
+    background-image: url("../images/main_bg.jpg");
+    .container{
+        position: relative;
+            justify-content: space-between;
+            width: 100%;
+            h1{
+                text-align: center;
+                font-family: $courgette;
+                span{
+                    color: red;
+                }
+                
+            }
+            .decoline{
+                    width: 50%;
+                }
+            .triangle1{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .triangle2{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            .triangle3{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            .triangle4{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+    }
+    .reservation{
+        justify-content: center;
+        border-radius: 2%;
+        width: 70%;
+        background-image: url("../images/book_table_bg.jpg");
+    }
+}
