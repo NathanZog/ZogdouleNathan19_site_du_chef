@@ -1,0 +1,18 @@
+.bgsect5{
+    background-image: url("../images/main_bg.jpg");
+    .titlesect5{
+        align-items: center;
+        h1{
+            font-family: $courgette;
+        }
+    }
+    .contact{
+        border-radius: 25px;
+        div{
+            align-items: center;
+            i{
+                font-size: 250%;
+            }
+        }
+    }
+}
