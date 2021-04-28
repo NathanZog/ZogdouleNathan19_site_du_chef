@@ -47,59 +47,6 @@
         .decoline{
             justify-content: center;
         }
-        .div-menu{
-            
-            .list-group{
-                
-                 width: 30%;
-                a>i{
-                    font-size: 300%;
-                    color:#cccccc;
-                    
-                }
-                a{
-                    font-family: 'Courgette', cursive;
-                    span{
-                        font-size: 150%;
-                    }
-                    
-                }
-               
-
-
-            } 
-            .list-group>a>i:hover{
-                    color: #b02939;
-                    
-                    }
-            .list-group>a:hover{
-                border-right: 5px solid #b02939;
-            }
-
-            .div-list1,.div-list2{
-                
-                  width: 60%;
-                .div,.div2,.div3,.div4,.div5{
-                    border-bottom: dotted 2px #efefef;
-                     padding: 1%;
-                    img{
-                        height: 100px;
-                        border-radius: 50%;
-                        border: 5px solid #efefef ;
-                    }
-                    p:nth-child(3){
-                        background-color: #efefef;
-                        height: 25px;
-                        width: 13%;
-                        color:#b02939;
-                        text-align: center;
-                        font-weight: bold;
-                        
-
-                    }
-                }
-
-            }
+        
     }
-}
 }
