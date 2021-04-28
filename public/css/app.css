@@ -16511,44 +16511,13 @@ h3 {
 .section1 div .decoline {
   justify-content: center;
 }
-.section1 div .div-menu .list-group {
-  width: 30%;
+.section1 div .listeicones .col-2 nav {
+  height: 300%;
 }
-.section1 div .div-menu .list-group a > i {
-  font-size: 300%;
-  color: #cccccc;
-}
-.section1 div .div-menu .list-group a {
-  font-family: "Courgette", cursive;
-}
-.section1 div .div-menu .list-group a span {
-  font-size: 150%;
-}
-.section1 div .div-menu .list-group > a > i:hover {
-  color: #b02939;
-}
-.section1 div .div-menu .list-group > a:hover {
-  border-right: 5px solid #b02939;
-}
-.section1 div .div-menu .div-list1, .section1 div .div-menu .div-list2 {
-  width: 60%;
-}
-.section1 div .div-menu .div-list1 .div, .section1 div .div-menu .div-list1 .div2, .section1 div .div-menu .div-list1 .div3, .section1 div .div-menu .div-list1 .div4, .section1 div .div-menu .div-list1 .div5, .section1 div .div-menu .div-list2 .div, .section1 div .div-menu .div-list2 .div2, .section1 div .div-menu .div-list2 .div3, .section1 div .div-menu .div-list2 .div4, .section1 div .div-menu .div-list2 .div5 {
-  border-bottom: dotted 2px #efefef;
-  padding: 1%;
-}
-.section1 div .div-menu .div-list1 .div img, .section1 div .div-menu .div-list1 .div2 img, .section1 div .div-menu .div-list1 .div3 img, .section1 div .div-menu .div-list1 .div4 img, .section1 div .div-menu .div-list1 .div5 img, .section1 div .div-menu .div-list2 .div img, .section1 div .div-menu .div-list2 .div2 img, .section1 div .div-menu .div-list2 .div3 img, .section1 div .div-menu .div-list2 .div4 img, .section1 div .div-menu .div-list2 .div5 img {
-  height: 100px;
-  border-radius: 50%;
-  border: 5px solid #efefef;
-}
-.section1 div .div-menu .div-list1 .div p:nth-child(3), .section1 div .div-menu .div-list1 .div2 p:nth-child(3), .section1 div .div-menu .div-list1 .div3 p:nth-child(3), .section1 div .div-menu .div-list1 .div4 p:nth-child(3), .section1 div .div-menu .div-list1 .div5 p:nth-child(3), .section1 div .div-menu .div-list2 .div p:nth-child(3), .section1 div .div-menu .div-list2 .div2 p:nth-child(3), .section1 div .div-menu .div-list2 .div3 p:nth-child(3), .section1 div .div-menu .div-list2 .div4 p:nth-child(3), .section1 div .div-menu .div-list2 .div5 p:nth-child(3) {
-  background-color: #efefef;
-  height: 25px;
-  width: 13%;
-  color: #b02939;
-  text-align: center;
-  font-weight: bold;
+.section1 div .listmenu .tab-content .tab-pane div .menu1 .menu {
+  border-bottom: 5px;
+  border-style: dotted;
+  border-color: gray;
 }
 
 .section2 {
