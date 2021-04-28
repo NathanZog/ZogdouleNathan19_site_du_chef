@@ -84,3 +84,21 @@
         }
     }
 }
+
+/* media queries*/
+
+@media (min-width:320px) and (max-width:499px){
+    .titre{
+        h1{
+            font-size: 15px;
+        }
+    }
+    .ourblog{
+        .imgdivimg{
+        display: none;
+        }
+        .txtimg{
+            display: none;
+        }
+    }
+}

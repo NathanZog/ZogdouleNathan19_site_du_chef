@@ -21,3 +21,20 @@
         }
     }
 }
+
+@media (min-width:320px) and (max-width:928px){
+    .titresect4{
+        h1{
+        font-size: 35px;
+        }
+    }
+    .imgsect4{
+        .borderimg{
+            display: none;
+            img{
+                display: none;
+            }
+        }
+        
+    }
+}
