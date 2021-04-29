@@ -16511,13 +16511,8 @@ h3 {
 .section1 div .decoline {
   justify-content: center;
 }
-.section1 div .listeicones .col-2 nav {
-  height: 300%;
-}
-.section1 div .listmenu .tab-content .tab-pane div .menu1 .menu {
-  border-bottom: 5px;
-  border-style: dotted;
-  border-color: gray;
+.section1 div .menu {
+  border-bottom: 1px gray dotted;
 }
 
 .section2 {
